@@ -10,21 +10,7 @@ This project focuses on text classification for spam detection using PySpark and
 The dataset, named 'spam.csv', is sourced from Kaggle and consists of 5572 rows and 2 columns. Each row contains a text message along with its corresponding class label, indicating whether the message is spam or ham. The dataset is used for training and testing machine learning models for spam detection.
 
 # Methodology:
-Data Set Preparation: Removing null values, tokenization, and removal of stop words.
-
-Text Preprocessing: Cleaning and preprocessing text data to prepare it for analysis.
-
-Text Representation: Using bag of words, word2vec, and TF-IDF for feature extraction.
-
-Feature Extraction: Extracting relevant features from the text data to train the machine learning models.
-
-Training and Testing the Data: Splitting the dataset into training and testing sets for model evaluation.
-
-Model Training: Training machine learning models, including Naïve Bayes, SVM, Decision Tree, and Random Forest, using PySpark.
-
-Evaluation: Evaluating the trained models using evaluation metrics such as accuracy, precision, recall, and F1 scores.
-
-Model Selection: Identifying the best-performing model for spam detection based on evaluation metrics.
+The project begins with data set preparation, involving the removal of null values, tokenization, and removal of stop words to ensure the data is clean and ready for analysis. Text preprocessing follows, focusing on cleaning and preparing the text data for further processing. Next, various techniques such as bag of words, word2vec, and TF-IDF are utilized for text representation, facilitating feature extraction from the text data. The extracted features are then used to train machine learning models including Naïve Bayes, SVM, Decision Tree, and Random Forest using PySpark. These models are evaluated using metrics like accuracy, precision, recall, and F1 scores to assess their performance. Finally, the best-performing model is selected for spam detection based on the evaluation metrics, providing a robust solution for accurate classification of spam messages.
 
 # SMOTE (Synthetic Minority Over-sampling Technique):
 In our project, we employ SMOTE (Synthetic Minority Over-sampling Technique) as an oversampling technique to address imbalanced datasets in spam detection. Imbalanced datasets occur when one class (e.g., spam) is significantly underrepresented compared to the other class (e.g., ham) in the dataset. This imbalance can lead to biased model performance, as the model may tend to favor the majority class.
