@@ -38,9 +38,9 @@ NumPy
 
 Matplotlib
 
-Scikit-learn
+Sklearn
 
-NLTK (Natural Language Toolkit)
+imblearn
 
 # Proposed Framework:
 In our project, we have chosen PySpark as the framework to work on spam detection. PySpark seamlessly integrates the use of Python with Apache Spark, a powerful distributed computing framework. PySpark provides a Python API for Apache Spark, enabling efficient and scalable data processing and machine learning tasks.PySpark includes MLlib, a scalable machine learning library that provides various algorithms for classification, regression, clustering, and collaborative filtering. MLlib enables us to train and evaluate machine learning models at scale using distributed computing capabilities of Apache Spark.
